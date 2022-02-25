@@ -32,9 +32,9 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:h2:file:./target/h2db/db/jhmnapp;DB_CLOSE_DELAY=-1
-    username: jhmnapp
-    password:
+    url: jdbc:postgresql://localhost:5432/jhmnapp
+    username: postgres
+    password: TPMaster_22
     hikari:
       poolName: Hikari
       auto-commit: false
